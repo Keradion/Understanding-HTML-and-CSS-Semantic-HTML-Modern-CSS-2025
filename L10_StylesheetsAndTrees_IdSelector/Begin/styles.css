@@ -1,0 +1,7 @@
+/* we are using id selector to select an element from the dom tree 
+that has an id with the value specified in the css rule*/
+
+#services {
+  font-weight: bold;
+}
+

@@ -1,0 +1,21 @@
+/* here we are using attribute selector */
+
+/* the following css rule targets all elements in the dom tree with a class value 'skillset' */
+
+[class~='skillset'] {
+  font-size: 10px;
+}
+
+/* the follwoing css rule applies to elements in the dom tree that has the specified attribute attr */
+
+
+[lang] {
+  font-weight: bold;
+}
+
+
+/* the follwoing css rule applies to elements in the dom tree that has the specified attribute and the value assigned to it */
+
+[lang='es'] {
+  font-size: 5px;
+}
