@@ -1,0 +1,37 @@
+li ~ li {
+    font-weight: bold;
+}
+
+ul li:first-child{
+    color: red;
+}
+
+/* 
+ here we are targeting the ul element in the page 
+ inside the ul element we have multiple li elements 
+ so using first-child psuedo class 
+ we target the first-child of the ul tag
+ or the first li elements inside the li tags of ul tag
+*/
+
+ul li:last-child{
+    color: green;
+}
+
+/*
+ of all the elements of ul 
+ that means we have multiple li elements 
+ we target the last element of all the li elements
+ and we change its color to green 
+*/
+
+ul li:only-child{
+    color: red;
+}
+
+
+/* the button has no sibiling and its the only element available inside the p tag */
+
+button:only-child{
+    color: red;
+}
