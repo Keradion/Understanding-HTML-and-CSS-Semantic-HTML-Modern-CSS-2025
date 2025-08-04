@@ -1,0 +1,8 @@
+ul:not(.resume-list){
+  color:red;
+}
+
+/* what we are doing is target all the ul elements in the page
+but of those ul elements do not apply the following property
+on the ul element with the class resume-list
+*/

@@ -1,0 +1,14 @@
+input:focus {
+  outline: 2px solid rgb(9, 158, 9);
+}
+
+select:focus, textarea:focus{
+  outline: 2px solid;
+  outline-color: rgb(128, 53, 0);
+}
+
+/*
+ the above properties applied when the users action is focus
+ focus occurs when the user naviagetes the page with keyboard
+ and the styles are applied on the input boxes
+*/

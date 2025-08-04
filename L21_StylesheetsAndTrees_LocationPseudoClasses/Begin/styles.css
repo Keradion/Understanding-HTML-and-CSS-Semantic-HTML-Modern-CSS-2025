@@ -1,0 +1,15 @@
+
+/* the :link psuedo class is to manage the appearance of the link 
+when its in unvisited state */
+
+a:link {
+  color: green;
+}
+
+/* the visited psuedo class is to manage the appearance of the link
+when its in visited state or the user navigates to it */
+
+a:visited {
+  font-style: italic;
+  color: red;
+}
