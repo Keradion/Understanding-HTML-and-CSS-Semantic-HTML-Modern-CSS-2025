@@ -1,0 +1,7 @@
+@import 'styles.css'; /* here we import the first css file which has a rules and declarations to be applied on the elements of index.html */
+@import 'styles2.css'; /* here we again import another css file which has rules and declarations of css which are to be applied on elements which are in index.html*/
+
+/* if we have multiple css rules in the same elements
+from the two imported files the rules in the last imported file
+will be applied.
+*/
